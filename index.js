@@ -10,7 +10,7 @@ return object;
 }
 
 function deleteFromObjectByKey (object, key) {
-  var obj = {key};
-  var newObj = deleteFromObjectByKey(obj, key);
+  var obj = {obj: "key"};
+  var newObj = ;
   return newObj;
 }
